@@ -1,0 +1,248 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>浩顺中文官网</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+<meta name="Keywords" content="浩顺中文官网" />
+<meta name="Description" content="浩顺中文官网" />
+<meta name="AUTHOR" content="聚蕊网络 www.juruikj.cn" />
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="JS/jquery.min.js"></script>
+<script type="text/javascript" src="JS/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="JS/main.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//给banner图片设置高度
+		var h = $(window).height();
+		var w = $(window).width()/2;
+		$('.slideBox,.slideBox .bd img').height($(window).height()-200);
+        $('.slideBox,.slideBox .bd img').width($(window).width());
+		//$('.slideBox,.slideBox .bd img').css("marginLeft",-w);
+		//$('.slideBox,.slideBox .bd img').css("left",w);
+	})
+
+</script>
+</head>
+
+<body>
+<!-- header -->
+<div class="header" id="header">
+	<div class="w">
+		<div class="logo">
+			<a href="index.php"><img src="images/logo.png" alt=""></a>
+		</div>
+
+		<div class="nav">
+			<ul>
+				<a href="index.php">
+					<li class="on">
+						<span >首页</span>
+					</li>
+				</a>
+				<a href="about.php">
+					<li >
+						<span >关于浩顺</span>
+					</li>
+				</a>
+				<a href="product_new.php">
+					<li >
+						<span>新品速递</span>
+					</li>
+				</a>
+				<a href="niuQiSuDi.php">
+					<li >
+						<span >牛器速递</span>
+					</li>
+				</a>
+				<a href="product.php"">
+					<li >
+						<span >产品中心</span>
+					</li>
+				</a>
+				<a href="news.php">
+					<li >
+						<span >新闻中心</span>
+					</li>
+				</a>
+				<a href="service.php">
+					<li >
+						<span >技术支持</span>
+					</li>
+				</a>
+				<a href="contact.php">
+					<li >
+						<span >联系我们</span>
+					</li>
+				</a>
+				<a href="download.php">
+					<li >
+						<span >下载中心</span>
+					</li>
+				</a>
+			</ul>
+		</div>
+
+		<div class="search">
+			<div class="search_form">
+				<form action="search.php" method="get">
+					<input type="text" value="" name="key" class="text" placeholder="机器型号查询...">
+					<input type="submit" value="" class="submit">
+				</form>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+<!-- 用于包裹内容区  和  flooter 那里开头的 </div> 形成闭环 -->
+<div class="body-con">
+<div class="banner">
+	<div class="slideBox">
+    	<div class="hd">
+      		<ul>
+      			        		<li></li>
+        		        		<li></li>
+        		        		<li></li>
+        		      		</ul>
+    	</div>
+   		<div class="bd">
+      		<ul>
+      			      			      			<li><a href="http://www.hsun.cn/product_list.php?sid=2&mid=5&id=66"><img src="uploadfile/b/LjzJvG4NlE5BMZPM4iY2.jpg" /></a></li>
+      			      			      			      			<li><a href="http://www.hsun.cn/product.php"><img src="uploadfile/b/whU4trRncEuzss3BX3Uk.jpg" /></a></li>
+      			      			      			      			<li><a href="http://yc0516.net/"><img src="uploadfile/b/ey21qAOLc6X6st4VpYVd.jpg" alt="爱游戏app下载" title="爱游戏app下载" /></a></li>
+      			      			      		</ul>
+    	</div>
+  </div>
+</div>
+<script type="text/javascript">
+jQuery(".slideBox").slide( { mainCell:".bd ul",effect:"fold",autoPlay:true,interTime:5000,delayTime:1500,trigger:"click",mouseOverStop:false} );
+</script>
+
+<!-- 栏目 -->
+<div class="w category">
+	<ul>
+		<li>
+			<a href="about.php">
+				<div class="cate_txt">
+					<h3>关于浩顺</h3>
+					<p>ABOUT US</p>
+				</div>
+				<div class="cate_img">
+					<img src="images/tu01.jpg" alt="">
+				</div>
+			</a>
+		</li>
+
+		<li>
+			<a href="product.php">
+				<div class="cate_txt">
+					<h3>产品中心</h3>
+					<p>PRODUCTS</p>
+				</div>
+				<div class="cate_img">
+					<img src="images/tu02.jpg" alt="">
+				</div>
+			</a>
+		</li>
+
+		<li>
+			<a href="service.php">
+				<div class="cate_txt">
+					<h3>技术支持</h3>
+					<p>Support</p>
+				</div>
+				<div class="cate_img">
+					<img src="images/tu03.jpg" alt="">
+				</div>
+			</a>
+		</li>
+
+		<li>
+			<a href="download.php">
+				<div class="cate_txt">
+					<h3>下载中心</h3>
+					<p>download</p>
+				</div>
+				<div class="cate_img">
+					<img src="images/tu04.jpg" alt="">
+				</div>
+			</a>
+		</li>
+		<div class="clear"></div>
+	</ul>
+</div>
+
+<!-- FOOTER -->
+<!-- 用于包裹内容区  和  flooter 那里开头的 <div class="body-con"> 形成闭环 -->
+</div>
+<div class="w footer">
+    <div class="footer_nav fl">
+        <ul>
+            <li>
+                <h3>关于浩顺</h3>
+                                <p><a href="about_detail.php?id=1">公司简介</a></p>
+                                <p><a href="about_detail.php?id=2">公司理念</a></p>
+                                <p><a href="about_detail.php?id=6">发展历程</a></p>
+                                <p><a href="about_detail.php?id=3">分公司风貌</a></p>
+                                <p><a href="about_detail.php?id=5">企业荣誉</a></p>
+                                <p><a href="about_detail.php?id=7">牛器速递</a></p>
+                            </li>
+
+            <li>
+                <h3>产品中心</h3>
+                                <p><a href="product_info.php?sid=1">智慧安防</a></p>
+                                <p><a href="product_info.php?sid=2">智慧收银</a></p>
+                            </li>
+
+            <li>
+                <h3>技术支持</h3>
+                <p><a href="question.php">常见问题</a></p>
+                <p><a href="service.php">地方服务</a></p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer_info fr">
+        <div class="f_info_lf fl">
+            <h3>联系我们</h3>
+            <div class="tel_400">
+                <p>
+                    全国服务热线：<br>
+                    <span>400-700-0202</span>
+                </p>
+            </div>
+            <p>加盟热线：</p>
+            <p>企业邮箱：info@hsun.cn</p>
+        </div>
+        <div class="f_info_rt fr">
+            <ul>
+                                <li>
+                    <img src="uploadfile/b/SGtyAshrRPoUxGcB4MSl.jpg" alt="微信公众平台">
+                    <p>微信公众平台</p>
+                </li>
+                                <li>
+                    <img src="uploadfile/b/nyCRZcR6O1nDC1cTE9ax.jpg" alt="招募结盟商">
+                    <p>招募结盟商</p>
+                </li>
+                            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="copyright">
+        <div class="fl">Copyright © 2018-2022 广州浩顺官网 版权所有 <a href="http://beian.miit.gov.cn" target="_self">粤ICP备11069288号</a></div>
+        <div class="fr">
+            <a href="news.php">新闻中心</a>
+            <a href="about.php">关于我们</a>
+            <a href="contact.php">联系我们</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>
